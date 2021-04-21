@@ -1,5 +1,8 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "cli": {
+    "analytics": "c49968d3-eb50-40f3-b2e0-0ae53584acc0"
+  },
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
@@ -86,6 +89,11 @@
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.spec.json",
             "karmaConfig": "karma.conf.js",
+            "codeCoverageExclude": [
+              "**/models/*.ts",
+              "**/app.module.ts",
+              "**/app.routes.ts"
+            ],
             "assets": [
               "src/favicon.ico",
               "src/assets"
