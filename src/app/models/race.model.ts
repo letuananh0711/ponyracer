@@ -1,4 +1,4 @@
-import { PonyModel } from './poney.model';
+import { PonyModel } from './pony.model';
 
 /* Interface for a model of the Race */
 export interface RaceModel {
