@@ -1,1 +1,1 @@
-{"pack":"57","id":10,"title":"Observables with RxJS","specs":[{"name":"src/app/race.service.spec.ts","hash":"590dc0c38b9b4f2935968ffda2ce8635db89bebc"},{"name":"src/app/races/races.component.spec.ts","hash":"2715dd60e839edcb40efb221826bcd03fb664c90"}]}
+{"pack":"57","id":11,"title":"HTTP","specs":[{"name":"cypress/e2e/home.cy.ts","hash":"1fe8d94ccde87935efc1c11dff3b8d7090487732"},{"name":"src/app/app.component.spec.ts","hash":"b11eb334cd96545255cf10074e01d076375b647f"},{"name":"src/app/race.service.spec.ts","hash":"d7adbaaa499a775d4dd45c4bbe9bc79922faedd9"}]}
