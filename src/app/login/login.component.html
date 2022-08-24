@@ -1,0 +1,15 @@
+<h1>Log in</h1>
+<div id="authentication-error" class="alert alert-danger" *ngIf="authenticationFailed">Nope, try again</div>
+<form (ngSubmit)="authenticate()" #loginForm="ngForm">
+  <div class="mb-3">
+    <label for="login" class="form-label">Login</label>
+    <input type="text" name="login" [(ngModel)]="credentials.login" required #login="ngModel" class="form-control" />
+    <div *ngIf="login.dirty && login.hasError('required')" id="login-warning">Login is required</div>
+  </div>
+  <div class="mb-3">
+    <label for="password" class="form-label">Password</label>
+    <input type="password" name="password" [(ngModel)]="credentials.password" required #password="ngModel" class="form-control" />
+    <div *ngIf="password.dirty && password.hasError('required')" id="password-warning">Password is required</div>
+  </div>
+  <button type="submit" [disabled]="loginForm.invalid" class="btn btn-primary">Login</button>
+</form>
